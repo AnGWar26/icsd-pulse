@@ -9,7 +9,9 @@ In order to create the environment, you will require conda.
 3. After conda has finished resolving the packages run `conda activate icsd-pulse`
 
 #### Questions
-* What is the distribution of families in each food security band depending on the methods they used to fulfill their spending needs?
+* What is the distribution of families in each food security band depending on their reasons for food insufficiency?
 * How does mental health vary by age?
 	* Create a "mental health index" by adding together average response for each question.
 * How has the education of kids been impacted in the age of COVID-19 by the level of education achieved by their parents?
+* What percent of each income group is unemployed?
+	* How is the distribution clustered?
