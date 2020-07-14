@@ -13,7 +13,7 @@ def process_food(data,sheet_name=0):
     Once it is necessary to analyze the data temporally, this function will determine what week the data is from by the spreadsheet name and run the appropriate code.
     
     """
-    food = pd.read_excel('../data/' + data +'.xlsx', sheet_name=sheet_name, skip_rows=[0,1,2], header=[4], index_col=0,skipfooter=1, nafilter=False, keep_default_na=False)
+    food = pd.read_excel('../data/food/' + data +'.xlsx', sheet_name=sheet_name, skip_rows=[0,1,2], header=[4], index_col=0,skipfooter=1, nafilter=False, keep_default_na=False)
     food = food.iloc[:, :5]
     food.index = food.index.str.strip()
     food.drop(['','Food Sufficiency before Mar 13, 2020','Reason for recent food insufficiency *','Free groceries or free meal in last 7 days','Provider of free groceries or free meal *',
