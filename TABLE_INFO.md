@@ -39,6 +39,7 @@ X-axis contains information about how much time spent on educational activities 
 X-axis contains information about how many classes using online resources, paper materials, where classes were canceled, where classes changed in another way, where no change to classes because schools did not close.
 ### Questions
 1. How do the changes to classes vary by Hispanic origin/race?
+2. How do the changes to classes vary by income?
 
 ***
 
@@ -98,6 +99,7 @@ X-axis contains information about how the device was provided(school district, c
 X-axis contains information about whether they or a family member have experienced loss of  employment income since March 2020, and whether they or a family member expect a loss of employment income in the next 4 weeks.
 ### Questions
 1. How does loss of employment income vary by age?
+2. What characteristic has the highest rate of loss of employment income and highest rate of expected employment income loss?
 
 ***
 
@@ -234,7 +236,7 @@ X-axis contains information about food insecurity in the last 7 days.
 
 ### Questions
 1. What are the most common reasons for food insufficiency?
-
+2. How does reported food insecurity affect  mental health?
 
 ***
 ## Table 5
@@ -254,7 +256,9 @@ X-axis contains information about food insecurity in the last 7 days.
 
 X-axis contains information about food insecurity in the last 7 days. Similar to last table, except only includes households with children.
 ### Questions
-1. How does children not eating often because food was unaffordable vary over time?
+1. What are the most common reasons for food insufficiency in households with children?
+2. How does reported food insecurity affect  mental health in households with children?
+3. How does children not eating often because food was unaffordable vary over time? 
 
 # Health
 
@@ -273,8 +277,8 @@ X-axis contains information about food insecurity in the last 7 days. Similar to
 
 X-axis contains information about whether in the last 4 weeks, people have delayed getting medical care because of the COVID-19 pandemic, and whether they needed medical care for something unrelated to COVID-19, but did not get it.
 ### Questions
-1. What characteristic was the most likely to need medical care unrelated to COVID-19 and not to get it
-2. 
+1. What characteristic was the most likely to need medical care unrelated to COVID-19 and not to get it?
+2. What characteristic was most likely to delay medical care due to COVID-19?
 
 ***
 ## Table 2a
@@ -292,9 +296,8 @@ X-axis contains information about whether in the last 4 weeks, people have delay
 
 X-axis contains information regarding frequency of feeling nervous, anxious, or on edge and the frequency of not being able to control worrying.
 ### Questions
-1. 
-2. 
-3. 
+1. What characteristic had the worst mental health?
+2. How do these feelings vary over time?
 
 ***
 
@@ -313,9 +316,8 @@ X-axis contains information regarding frequency of feeling nervous, anxious, or 
 
 X-axis contains information regarding frequency of having little interest or pleasure in doing things and frequency of feeling down, depressed, or hopeless.
 ### Questions
-1. 
-2. 
-3. 
+1. How do these feelings vary over time?
+2. What characteristic had the worst mental health?
 
 ***
 
@@ -335,7 +337,4 @@ X-axis contains information regarding frequency of having little interest or ple
 X-axis contains information about whether the respondent has health insurance and where their health insurance comes from.
 ### Questions
 1. What characteristic is the least likely to have health insurance?
-2. 
-3.  
-
-
+2. What characteristic was the most likely to lose health insurance as the pandemic wore on?
