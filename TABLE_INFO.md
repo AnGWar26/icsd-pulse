@@ -22,7 +22,6 @@ X-axis contains information about how much time spent on educational activities 
 3. How does time spent on educational activities vary based on household income?
 4. How does time spent on educational activities vary based on marital status?
 
-***
 
 ## Table 2
 - Age
@@ -41,7 +40,6 @@ X-axis contains information about how many classes using online resources, paper
 1. How do the changes to classes vary by Hispanic origin/race?
 2. How do the changes to classes vary by income?
 
-***
 
 ## Table 3
 - Age
@@ -63,7 +61,6 @@ X-axis contains information regarding the availability of the devices for educat
 2. What is the availability of the device for educational purposes depending on household income?
 3. What is the availability of the device for educational purposes depending on Hispanic origin and race?
 
-***
 
 ## Table 4
 - Age
@@ -101,7 +98,6 @@ X-axis contains information about whether they or a family member have experienc
 1. How does loss of employment income vary by age?
 2. What characteristic has the highest rate of loss of employment income and highest rate of expected employment income loss?
 
-***
 
 ## Table 2
 - Age
@@ -120,7 +116,6 @@ X-axis contains information about if people were employed in the last 7 days, an
 1. What share of employment does each option make up? Ex: what is the share of employment in government,private sector of the total number of employed vs what it normally is in order to see most impacted sectors.
 2. What characteristics have the highest unemployment rate(top 5 maybe)?
 
-***
 
 ## Table 3
 - Reason for not working
@@ -152,7 +147,6 @@ I think most of the interest in this set of data can be found in comparing tempo
 1. How does mean amount of dollars spent on food in both categories vary over time? 
 2. How does mean amount of dollars spent on food vary over time  by region in context with the state of lockdown/closures?
 
-***
 
 ## Table 2a/2b
 - Age
@@ -185,7 +179,6 @@ This table would be most interesting in tandem with 2b that contains the same da
 1. What characteristic showed the biggest increase in food insecurity over time?
 
 
-***
 
 ## Table 3a/3b
 - Age
@@ -216,7 +209,6 @@ X-axis contains information about food sufficiency prior to March 13, 2020/ in t
 ### Questions
 1. **Questions that can be asked for this table are the same as for the last table, but would only apply to households with children.**
 
-***
 
 ## Table 4
 - Food insufficiency before March 13,2020
@@ -238,7 +230,6 @@ X-axis contains information about food insecurity in the last 7 days.
 1. What are the most common reasons for food insufficiency?
 2. How does reported food insecurity affect  mental health?
 
-***
 ## Table 5
 - Food insufficiency before March 13,2020
 - Reason for recent food insufficiency
@@ -280,7 +271,6 @@ X-axis contains information about whether in the last 4 weeks, people have delay
 1. What characteristic was the most likely to need medical care unrelated to COVID-19 and not to get it?
 2. What characteristic was most likely to delay medical care due to COVID-19?
 
-***
 ## Table 2a
 - Age
 - Sex
@@ -299,7 +289,6 @@ X-axis contains information regarding frequency of feeling nervous, anxious, or 
 1. What characteristic had the worst mental health?
 2. How do these feelings vary over time?
 
-***
 
 ## Table 2b
 - Age
@@ -319,7 +308,6 @@ X-axis contains information regarding frequency of having little interest or ple
 1. How do these feelings vary over time?
 2. What characteristic had the worst mental health?
 
-***
 
 ## Table 3
 - Age
