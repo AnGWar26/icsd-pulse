@@ -11,5 +11,5 @@ In order to create the environment, you will require conda.
 #### Questions
 * What race has the highest rate of loss of employment income and highest rate of expected employment income loss (Employment Table 1)?
 * How does who pays for devices/internet vary by race (Education Table 4)?
-* How does reported food insecurity affect mental health by race (Food Table 4)?
+* How does reported food insecurity affect mental health (Food Table 4)?
 * Which race had the worst mental health (Health Table 2)?
