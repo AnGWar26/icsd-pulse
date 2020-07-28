@@ -8,7 +8,7 @@ def process_edu(week,sheet_name=0):
     2. sheet_name(str,int) - The sheet to be processed.
     
     """
-    edu = pd.read_excel('../data/edu/EDU_Table4_Week' + str(week) + '.xlsx', sheet_name=sheet_name, skip_rows=[0,1,2], header=[5], index_col=0,skipfooter=1, nafilter=False, keep_default_na=False)
+    edu = pd.read_excel('../data/edu/educ4_week' + str(week) + '.xlsx', sheet_name=sheet_name, skip_rows=[0,1,2], header=[5], index_col=0,skipfooter=1, nafilter=False, keep_default_na=False)
     edu.index = edu.index.str.strip()
     
     edu.rename(columns={'Unnamed: 1' : 'Total',
