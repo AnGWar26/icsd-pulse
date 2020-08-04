@@ -13,7 +13,7 @@ def process_edu(week,sheet_name=0):
     
     edu.rename(columns={'Unnamed: 1' : 'Total',
                     'Unnamed: 2' : 'Provided by the children’s school or school district to use outside of school(device)',
-                    'Unnamed: 3':'Provided by someone in the household or family, or it is the child’s(device',
+                    'Unnamed: 3':'Provided by someone in the household or family, or it is the child’s(device)',
                     'Unnamed: 4' : 'Provided by another source(device)','Unnamed: 5' : 'Did not report(device)',
                     'Unnamed: 6' : 'Paid for by the children’s school or school district(internet)',
                     'Unnamed: 7' : 'Paid for by someone in the household or family(internet)',
