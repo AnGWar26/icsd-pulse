@@ -22,6 +22,7 @@ def process_edu(week,sheet_name=0):
     edu.drop(['Age','Sex','Hispanic origin and Race','Education', 'Marital status' , 'Presence of children under 18 years old',
                   'Respondent or household member experienced loss of employment income',
                   'Respondent currently employed','Food sufficiency for households prior to March 13, 2020','Household income'                 ], axis=0,inplace=True)
+    #  Jupyter thinks the double $ signals a MathJax equation. Escape them with \
     edu.index = ['Total', '18 - 24', '25 - 39', '40 - 54', '55 - 64', '65 and above',
                    'Male', 'Female', 'Hispanic or Latino (may be of any race)',
                    'White alone, not Hispanic', 'Black alone, not Hispanic',
@@ -36,9 +37,9 @@ def process_edu(week,sheet_name=0):
                    'Did not report employment status', 'Enough of the types of food wanted(prior to March 13, 2020)',
                    'Enough food, but not always the types wanted(prior to March 13, 2020)',
                    'Sometimes not enough to eat(prior to March 13, 2020)', 'Often not enough to eat(prior to March 13, 2020)',
-                   'Did not report food sufficiency', 'Less than $25,000', '$25,000 - $34,999',
-                   '$35,000 - $49,999', '$50,000 - $74,999', '$75,000 - $99,999',
-                   '$100,000 - $149,999', '$150,000 - $199,999', '$200,000 and above',
+                   'Did not report food sufficiency', 'Less than \\$25,000', '\\$25,000 - \\$34,999',
+                   '\\$35,000 - \\$49,999', '\\$50,000 - \\$74,999', '\\$75,000 - \\$99,999',
+                   '\\$100,000 - \\$149,999', '\\$150,000 - \\$199,999', '$\\200,000 and above',
                    'Did not report income']
     
     edu.replace('-', 0,inplace=True) # replace values that are not ints
