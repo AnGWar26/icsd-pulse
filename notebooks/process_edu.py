@@ -39,7 +39,7 @@ def process_edu(week,sheet_name=0):
                    'Sometimes not enough to eat(prior to March 13, 2020)', 'Often not enough to eat(prior to March 13, 2020)',
                    'Did not report food sufficiency', 'Less than \\$25,000', '\\$25,000 - \\$34,999',
                    '\\$35,000 - \\$49,999', '\\$50,000 - \\$74,999', '\\$75,000 - \\$99,999',
-                   '\\$100,000 - \\$149,999', '\\$150,000 - \\$199,999', '$\\200,000 and above',
+                   '\\$100,000 - \\$149,999', '\\$150,000 - \\$199,999', '\\$200,000 and above',
                    'Did not report income']
     
     edu.replace('-', 0,inplace=True) # replace values that are not ints
@@ -54,6 +54,25 @@ def process_edu(week,sheet_name=0):
     
     for column in col_list[5:8]:
         edu['% ' + column] = edu[column] / edu['Total internet(not including DNR)']
+        
+    #  Modify the column ordering so that the graphs are consistent and pretty
+    edu = edu[['Total',
+               'Provided by the children’s school or school district to use outside of school(device)',
+               'Provided by someone in the household or family, or it is the child’s(device)',
+               'Provided by another source(device)',
+               'Did not report(device)',
+               'Paid for by the children’s school or school district(internet)',
+               'Paid for by someone in the household or family(internet)',
+               'Paid for by another source(internet)',
+               'Did not report(internet)',
+               'Total device(not including DNR)',
+               'Total internet(not including DNR)',
+               '% Provided by someone in the household or family, or it is the child’s(device)',
+               '% Provided by the children’s school or school district to use outside of school(device)',
+               '% Provided by another source(device)',
+               '% Paid for by someone in the household or family(internet)',
+               '% Paid for by the children’s school or school district(internet)',
+               '% Paid for by another source(internet)']]
 
 
     return edu
