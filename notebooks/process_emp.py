@@ -81,7 +81,32 @@ def process_emp(week,sheet_name=0):
         emp['% ' + str(column)] = emp[column] / emp['Total Experienced loss of employment income since March 13, 2020']
     
     for column in col_list[4:6]:
-        emp['% ' + str(column)] = emp[column] / emp['Total Expected loss of employment income in next 4-weeks']\
+        emp['% ' + str(column)] = emp[column] / emp['Total Expected loss of employment income in next 4-weeks']
+        
+    emp.rename(
+    columns={
+        "% ('Experienced loss of employment income since March 13, 2020 (for self or household member)', 'Yes')":'Household experienced lose of employment income since March 13, 2020',
+        "% ('Experienced loss of employment income since March 13, 2020 (for self or household member)', 'No')":'Household did not experience lose of employment income since March 13, 2020',
+        "% ('Expected loss of employment income in next 4-weeks (for self or household member)', 'Yes')":'Household expects loss of employment income in next 4 weeks',
+        "% ('Expected loss of employment income in next 4-weeks (for self or household member)', 'No')":'Household does not expect loss of employment income in next 4 weeks'
+                          },inplace=True
+                )
+    emp.columns = emp.columns.droplevel(level=1)
+    emp.columns=[
+    'Total',
+    'Household experienced loss of employment income since March 13, 2020',
+    'Household did not experience loss of employment income since March 13, 2020',
+    'Household did report loss of employment income since March 13, 2020',
+    'Household expects loss of employment income in next 4 weeks',
+    'Household does not expect loss of employment income in next 4 weeks',
+    'Household did not report expecting loss of employment income in next 4 weeks',
+    'Total Experienced loss of employment income since March 13, 2020',
+    'Total Expected loss of employment income in next 4-weeks',
+    '% Household experienced lose of employment income since March 13, 2020',
+    '% Household did not experience lose of employment income since March 13, 2020',
+    '% Household expects loss of employment income in next 4 weeks',
+    '% Household does not expect loss of employment income in next 4 weeks'
+    ]
     
     return emp
     
