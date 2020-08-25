@@ -85,8 +85,8 @@ def process_emp(week,sheet_name=0):
         
     emp.rename(
     columns={
-        "% ('Experienced loss of employment income since March 13, 2020 (for self or household member)', 'Yes')":'Household experienced lose of employment income since March 13, 2020',
-        "% ('Experienced loss of employment income since March 13, 2020 (for self or household member)', 'No')":'Household did not experience lose of employment income since March 13, 2020',
+        "% ('Experienced loss of employment income since March 13, 2020 (for self or household member)', 'Yes')":'Household experienced loss of employment income since March 13, 2020',
+        "% ('Experienced loss of employment income since March 13, 2020 (for self or household member)', 'No')":'Household did not experience loss of employment income since March 13, 2020',
         "% ('Expected loss of employment income in next 4-weeks (for self or household member)', 'Yes')":'Household expects loss of employment income in next 4 weeks',
         "% ('Expected loss of employment income in next 4-weeks (for self or household member)', 'No')":'Household does not expect loss of employment income in next 4 weeks'
                           },inplace=True
@@ -102,8 +102,8 @@ def process_emp(week,sheet_name=0):
     'Household did not report expecting loss of employment income in next 4 weeks',
     'Total Experienced loss of employment income since March 13, 2020',
     'Total Expected loss of employment income in next 4-weeks',
-    '% Household experienced lose of employment income since March 13, 2020',
-    '% Household did not experience lose of employment income since March 13, 2020',
+    '% Household experienced loss of employment income since March 13, 2020',
+    '% Household did not experience loss of employment income since March 13, 2020',
     '% Household expects loss of employment income in next 4 weeks',
     '% Household does not expect loss of employment income in next 4 weeks'
     ]
